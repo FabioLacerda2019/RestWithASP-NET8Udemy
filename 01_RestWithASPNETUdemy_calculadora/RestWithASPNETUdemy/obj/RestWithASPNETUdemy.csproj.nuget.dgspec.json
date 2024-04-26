@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {}
+    "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\01_RestWithASPNETUdemy_calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {}
   },
   "projects": {
-    "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {
+    "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\01_RestWithASPNETUdemy_calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+        "projectUniqueName": "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\01_RestWithASPNETUdemy_calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
         "projectName": "RestWithASPNETUdemy",
-        "projectPath": "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+        "projectPath": "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\01_RestWithASPNETUdemy_calculadora\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
         "packagesPath": "C:\\Users\\fabio.lacerda\\.nuget\\packages\\",
-        "outputPath": "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\RestWithASPNETUdemy\\RestWithASPNETUdemy\\obj\\",
+        "outputPath": "F:\\RestWithASP-NET8Udemy\\RestWithASP-NET8Udemy\\01_RestWithASPNETUdemy_calculadora\\RestWithASPNETUdemy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -46,7 +46,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
